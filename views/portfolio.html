@@ -1,23 +1,16 @@
-<!DOCTYPE html>
+{%extends "layout.html"%}
 
-<html>
+{% block head %}
 
-<head>
-  <title>Jeriel Zinga</title>
+<title>Portfolio - Jeriel Zinga</title>
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css">
-  <link rel="shortcut icon" href="../src/images/favicon.ico" type="image/x-icon">
-</head>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
 
-<body>
-  <header>
-    <div class="links">
-      <a href="/index.html">Sobre</a>
-      <a href="/portfolio.html">Projetos</a>
-    </div>
-  </header>
+{% endblock %}
+
+{% block content %}
+
   <div id="wrapper">
     <h1>Projetos</h1>
   </div>
@@ -120,6 +113,4 @@
 
   <script src="scripts.js"></script>
 
-</body>
-
-</html>
+  {% endblock %}

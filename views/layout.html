@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    
+    {% block head %}
+      <title>Jeriel Zinga</title>
+    {% endblock %}
+    
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="shortcut icon" href="../src/images/favicon.ico" type="image/x-icon">
+  </head>
+
+  <body>
+    <header>
+      <div class="links">
+        <a href="/">Sobre</a>
+        <a href="/portfolio">Projetos</a>
+      </div>    
+  </header>
+
+  {% block content %}
+
+  {% endblock %}
+
+  </body>
+
+</html>

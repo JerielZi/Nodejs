@@ -1,20 +1,11 @@
-<!DOCTYPE html>
+{%extends "layout.html"%}
 
-<html>
-  <head>
-    <title>Jeriel Zinga</title>
-    
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="shortcut icon" href="/src/images/favicon.ico" type="image/x-icon">
-  </head>
+{% block head %}
 
-  <body>
-    <header>
-      <div class="links">
-        <a href="/">Sobre</a>
-        <a href="/portfolio">Projetos</a>
-      </div>    
-  </header>
+{% endblock %}
+    <title>Sobre - Jeriel Zinga</title>
+{% block content %}
+
   <div id="wrapper">
     <img src="https://avatars3.githubusercontent.com/u/6820969?s=400&u=a047032c5a2861280ac00929a45296dc9b1884b7&v=4" alt="Jeriel Zinga">
     <h1>Jeriel Zinga</h1>
@@ -28,6 +19,4 @@
     <a href="https://www.linkedin.com/in/jeriel-zinga-198636176/" target="_blank">LinkedIn</a>
   </div>
 
-  </body>
-
-</html>
+ {% endblock %}
