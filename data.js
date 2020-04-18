@@ -2,7 +2,7 @@ module.exports = [
   {
     id: "jP3AtsArxSQ",
     title: "Aplicação Be The Hero | Jeriel Zinga",
-    about: "JavaScript e Node.js",
+    about: "JavaScript",
     price: "Free"
   },
 
@@ -30,7 +30,7 @@ module.exports = [
   {
     id: "X2RKRKdqqwM",
     title: "Projetos para o futuro | Jeriel Zinga",
-    about: "React.js e React Native",
+    about: "Reactjs",
     price: "Free"
   },
 

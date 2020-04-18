@@ -9,11 +9,30 @@ server.use(express.static('public'))
 server.set("view engine", "njk")
 
 nunjucks.configure("views", {
-  express: server
+  express: server,
+  autoescape: false
 })
 
 server.get("/", function(req, res) {
-  return res.render("about")
+    const about = {
+      avatar_url: "https://avatars3.githubusercontent.com/u/6820969?s=400&u=a047032c5a2861280ac00929a45296dc9b1884b7&v=4",
+      name: "Jeriel Zinga",
+      role: "Developer Student",
+      description: 'Programador em JavaScript e PHP e amante de tecnológia. Veja meus projetos em meu <a href="http://github.com/JerielZi" target="_blank" rel="noopener noreferrer">GitHub</a>',
+      links: [
+        {
+          name:"Youtube", url :"https://www.youtube.com/channel/UCf-5IY2pq-M8ND-BBxbjB2w?view_as=subscriber"
+        },
+        {
+          name:"Facebook", url:"https://www.facebook.com/jeriel.zinga"
+        },
+        {
+          name:"LinkedIn", url:"https://www.linkedin.com/in/jeriel-zinga-198636176/"
+        }
+      ]
+    }
+
+  return res.render("about", {about})
 })
 
 server.get("/portfolio", function(req, res) {

@@ -93,6 +93,7 @@ header {
 .card {
   background-color: var(--color-myblue);
   display: grid;
+  cursor: pointer;
 }
 
 .cards_image_container {
@@ -106,6 +107,7 @@ header {
 .card_content,
 .card_info {
   padding: 24px;
+  
 }
 
 .card_info {
