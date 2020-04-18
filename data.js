@@ -3,7 +3,8 @@ module.exports = [
     id: "jP3AtsArxSQ",
     title: "Aplicação Be The Hero | Jeriel Zinga",
     about: "JavaScript",
-    price: "Free"
+    price: "Free",
+    featured: true
   },
 
   {
@@ -24,7 +25,8 @@ module.exports = [
     id: "GykTLqODQuU",
     title: "Casa Criativa- Ideias para fazer durante a quarentena | Jeriel Zinga",
     about: "HTML e CSS",
-    price: "Free"
+    price: "Free",
+    featured: true
   },
 
   {
@@ -38,7 +40,8 @@ module.exports = [
     id: "PypTfOwnSgg",
     title: "Projetos para o futuro | Jeriel Zinga",
     about: "PHP e Node.js",
-    price: "Free"
+    price: "Free",
+    featured: true
   }
 
 ]
