@@ -82,8 +82,8 @@ header {
 
 /*==== CARDS ====*/
 .cards {
-  max-width: 900px;
-  margin: 0 500px;
+  max-width: 800px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
@@ -92,7 +92,7 @@ header {
 
 .card {
   background-color: var(--color-myblue);
-  height: auto;
+  display: grid;
 }
 
 .cards_image_container {
@@ -100,8 +100,7 @@ header {
 }
 
 .cards_image_container img {
-  /* height: 200px; */
-  width: 450px;
+  width: 100%;
 }
 
 .card_content,
@@ -112,6 +111,7 @@ header {
 .card_info {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
 .card_price {
